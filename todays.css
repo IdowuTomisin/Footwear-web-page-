@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(yes.jpeg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid blue;
+}
+
+.logo image
+{
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:pink;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+p
+{
+    color:black;
+    text-transform: inherit;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1
+{
+    color:red;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-top: inherit;
+}
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn-one
+{
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-two
+{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-two:hover
+{
+    background-color: tomato;
+    transition: all 0.1s ease-in;
+}
+
+.box
+{
+
+    width: 450px;
+    height: 100px;
+    font-style: oblique;
+    margin: left;
+    margin-top: 50px;
+    float: right;
+    display: inline-block;
+}
+
+.box2
+{
+    width: 350px;
+    height: 50px;
+    font-style: inherit;
+    margin: left;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+img
+{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
